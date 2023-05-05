@@ -41,10 +41,31 @@ nav {
 nav li,
 .account li {
   list-style: none;
-  padding: 8px 16px;
   font-weight: 700;
+  padding: 0px 4px;
   color: #286bd4;
+  transition: 0.2s;
   cursor: pointer;
+  position: relative;
+}
+
+nav li:after,
+.account li:after {
+  content: "";
+  position: absolute;
+  background-color: #3c80ee;
+  height: 3px;
+  cursor: pointer;
+  transition: 0.2s;
+  left: 0;
+  width: 0;
+  bottom: -10px;
+  border-radius: 8px;
+}
+
+nav li:hover:after,
+.account li:hover:after {
+  width: 100%;
 }
 
 nav a,
