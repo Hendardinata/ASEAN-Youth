@@ -280,3 +280,55 @@ footer h4 {
   filter: drop-shadow(1px 1px 4px #3c80ee);
   text-shadow: 1px 1px 4px #3c80ee;
 }
+@media screen and (max-width: 600px) {
+  header {
+    /* display: none; */
+    /* flex-wrap: wrap; */
+  }
+  header .ser {
+    display: none;
+  }
+  header .account {
+    display: none;
+  }
+  .banner {
+    height: 80vh;
+    display: block;
+    text-align: center;
+  }
+  .banner button {
+    margin-bottom: 10px;
+  }
+  .swiper {
+    width: 550px;
+  }
+  .content-info {
+    height: 70vh;
+    margin-bottom: 100px;
+  }
+  .content-info .card {
+    display: flex;
+    justify-content: space-evenly;
+    height: 300px;
+  }
+  .swiper-button-next,
+  .swiper-button-prev {
+    display: none;
+  }
+  .testimoni {
+    flex-wrap: wrap;
+  }
+  .testimoni-right img {
+    width: 200px;
+    height: 300px;
+    border-radius: 5%;
+  }
+  footer {
+    height: 48vh;
+    margin-top: 0;
+    padding: 0;
+  }
+  footer h4 {
+    padding-top: 10px;
+  }
+}
