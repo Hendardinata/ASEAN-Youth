@@ -298,6 +298,8 @@ footer h4 {
   height: 5px;
   width: 5px;
   color: #fff;
+  margin-left: 10px;
+  margin-right: 10px;
   filter: drop-shadow(1px 1px 4px #3c80ee);
   text-shadow: 1px 1px 4px #3c80ee;
 }
