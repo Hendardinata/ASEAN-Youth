@@ -1,3 +1,0 @@
-CATATAN UNTUK ANGGTOA BE-11
-
-Jangan melakukan development pada branch dev.
