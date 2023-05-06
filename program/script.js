@@ -26,6 +26,7 @@ fetch("https://6450dbfba32219691153974a.mockapi.io/api/v1/program")
             <div class="card-body">
             <h5 class="card-title">${program.judul}</h5>
             <p class="card-text">${program.deskripsi}</p>
+            <button><a href="../detail_program/detail_program.html" class="btn-detail-program">Look's Program</a></button>
             </div>
         </div>
       </div>`;
