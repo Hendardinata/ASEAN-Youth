@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- LINK GOOGLE FONT -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alkatra&family=Courgette&family=Damion&family=Fira+Sans:wght@300&family=Poppins:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <!-- LINK SWIPER JS | SLIDE -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+    <!-- LINK CSS -->
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <!-- LINK JS -->
+    <script src="script.js"></script>
+    <title>ASEAN Youth</title>
+    <link
+      rel="shortcut icon"
+      href="https://yt3.ggpht.com/a-/AAuE7mBsxp-GTsl0fLnfmgTiHWsdiE2wLpTgtqmx_A=s900-mo-c-c0xffffffff-rj-k-no"
+    />
+    <!-- LINK BOOTSTRAP 5 -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img
+          src="https://yt3.ggpht.com/a-/AAuE7mBsxp-GTsl0fLnfmgTiHWsdiE2wLpTgtqmx_A=s900-mo-c-c0xffffffff-rj-k-no"
+          alt=""
+        />
+      </div>
+      <nav>
+        <li>Program</li>
+        <li>Langganan</li>
+        <li>Forum</li>
+        <li>Donasi</li>
+        <li>About</li>
+      </nav>
+      <div class="ser">
+        <input
+          class="form-control me-2"
+          type="search"
+          placeholder="Search Program"
+          aria-label="Search"
+        />
+      </div>
+      <div class="account">
+        <li>Sign Up</li>
+        <li>Login</li>
+      </div>
+    </header>
+    <div class="banner">
+      <div class="content-banner-left">
+        <li>Exchange Program</li>
+        <li>Seminar & Workshops</li>
+        <li>Youth Particifation and Engagement</li>
+        <li>voluteerism & Charity</li>
+        <li>Youth Advocacy</li>
+        <li>Webinar</li>
+        <li>Research Development</li>
+        <li>Academy</li>
+      </div>
+      <div class="content-banner-right">
+        <img
+          src="https://images.pexels.com/photos/13836514/pexels-photo-13836514.jpeg?auto=compress&cs=tinysrgb&w=800"
+          alt=""
+        />
+      </div>
+    </div>
+    <div class="content-info">
+      <h2>Signature Program</h2>
+      <div id="card-signature" class="swiper-wrapper"></div>
+    </div>
+    <!-- EVENT SHOULD JOIN -->
+    <section class="events">
+      <h2>Events You Should Join Now</h2>
+      <div class="swiper mySwiper">
+        <div id="card-porgram" class="swiper-wrapper"></div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+      <!-- Swiper JS -->
+      <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+      <!-- Initialize Swiper -->
+      <script>
+        var swiper = new Swiper(".mySwiper", {
+          slidesPerView: 4,
+          spaceBetween: 20,
+          loop: true,
+          pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+          },
+          navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+          },
+        });
+      </script>
+    </section>
+    <!-- PREVIOUS -->
+    <section class="previous">
+      <h2>Previous Events</h2>
+      <div class="order-previous-events">
+        <li>All</li>
+        <li>Charity</li>
+        <li>Conference</li>
+        <li>Exchange</li>
+        <li>FGD</li>
+        <li>Webinar</li>
+        <li>Workshop</li>
+      </div>
+      <div class="previous-content">
+        <h1>NEXT UPDATE</h1>
+      </div>
+    </section>
+    <footer>
+      <h4>Empowering ASEAN Youth for a Better Tomorrow</h4>
+      <div class="footer-info">
+        <div class="footer-card-info">
+          <img
+            src="https://yt3.ggpht.com/a-/AAuE7mBsxp-GTsl0fLnfmgTiHWsdiE2wLpTgtqmx_A=s900-mo-c-c0xffffffff-rj-k-no"
+            alt=""
+          />
+          <p>ASEAN Youth Organization</p>
+          <p>
+            AYO Kreasi Internasional Arcade Business Center 6-03North Jakarta,
+            Indonesia
+          </p>
+        </div>
+        <div class="footer-card-info">
+          <h5>MENU</h5>
+          <p>Program</p>
+          <p>Langganan</p>
+          <p>Forum</p>
+          <p>Donasi</p>
+        </div>
+        <div class="footer-card-info">
+          <h5>CLASS CATEGORY</h5>
+          <p>Seminar</p>
+          <p>Online Program</p>
+          <p>Offline Program</p>
+          <p>Webinar</p>
+        </div>
+      </div>
+      <p style="margin-top: 40px">BE 11</p>
+    </footer>
+  </body>
+</html>
