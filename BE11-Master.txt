@@ -1,3 +1,0 @@
-CATATAN UNTUK GRUP BE-11
-
-Jangan pernah melakukan development pada branch Master.
